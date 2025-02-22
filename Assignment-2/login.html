@@ -1,0 +1,123 @@
+<style>
+    .login-page {
+      background-color: #fff;
+      display: flex;
+      max-width: 480px;
+      width: 100%;
+      flex-direction: column;
+      overflow: hidden;
+      align-items: center;
+      margin: 0 auto;
+      padding: 25px 0 139px;
+    }
+    .login-container {
+      align-self: stretch;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 53px 0 22px;
+      font: 400 24px Inter, sans-serif;
+    }
+    .logo {
+      aspect-ratio: 1.2;
+      object-fit: contain;
+      object-position: center;
+      width: 42px;
+    }
+    .login-title {
+      color: #000;
+      font-size: 40px;
+      align-self: center;
+      margin-top: 38px;
+      font-weight: 700;
+    }
+    .mobile-input {
+      background-color: #d9d9d9;
+      align-self: end;
+      margin-top: 69px;
+      color: #8e8b8b;
+      font-weight: 700;
+      padding: 24px 25px;
+      border: none;
+      width: 100%;
+      font: inherit;
+    }
+    .signup-link {
+      color: #4436da;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      align-self: center;
+      margin-top: 28px;
+      text-decoration: none;
+    }
+    .social-login-text {
+      color: #000;
+      text-align: center;
+      margin-top: 264px;
+      font: 400 24px Inter, sans-serif;
+    }
+    .social-icons {
+      display: flex;
+      margin-top: 36px;
+      width: 160px;
+      max-width: 100%;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .social-icon {
+      aspect-ratio: 0.9;
+      object-fit: contain;
+      object-position: center;
+      width: 46px;
+      margin: auto 0;
+    }
+    .social-icon-large {
+      aspect-ratio: 0.95;
+      object-fit: contain;
+      object-position: center;
+      width: 69px;
+    }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+  
+  <div class="login-page">
+    <div class="login-container">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1b46b12b7312b599360ed627083a6955defdac41b6b4ff85cc705949c23f00f?placeholderIfAbsent=true&apiKey=8e13f5a5e799483a8f8e603aef4ca34c"
+        class="logo"
+        alt=""
+      />
+      <h1 class="login-title">Login</h1>
+      <form>
+        <label for="mobileNumber" class="visually-hidden">Enter Mobile Number</label>
+        <input type="tel" id="mobileNumber" class="mobile-input" placeholder="Enter Mobile Number" aria-label="Enter Mobile Number" />
+      </form>
+      <a href="#" class="signup-link">Sign up</a>
+    </div>
+    <p class="social-login-text">Or continue with social account</p>
+    <div class="social-icons">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c291ffdde15236ee1796fef0303ca01b4aa20386779477c793fbdc9aa96955cc?placeholderIfAbsent=true&apiKey=8e13f5a5e799483a8f8e603aef4ca34c"
+        class="social-icon"
+        alt="Social login option 1"
+      />
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/838ab9d2c3eeffad3b3f1d7c0a2b9fdd5d11d491b8a339af59e73c6ae91ecfc6?placeholderIfAbsent=true&apiKey=8e13f5a5e799483a8f8e603aef4ca34c"
+        class="social-icon-large"
+        alt="Social login option 2"
+      />
+    </div>
+  </div>

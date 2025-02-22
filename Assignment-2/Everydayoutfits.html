@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Outfits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .iphone-frame {
+            width: 390px;
+            height: 844px;
+            background: white;
+            border-radius: 30px;
+            border: 2px solid black;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            background: white;
+        }
+        .back-icon {
+            font-size: 1.5em;
+            cursor: pointer;
+            /* margin-left: 15px; */
+            margin-right: 24px;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 15px;
+            flex-grow: 1;
+            /* text-align: center; */
+        }
+        .content {
+            width: 90%;
+            max-width: 360px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 90px;
+            text-align: center;
+        }
+        .outfit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .outfit img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .outfit p {
+            margin: 5px 0;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="header">
+            <div class="title">Everyday Outfits</div>
+            <i class="fa-solid fa-arrow-left back-icon"></i> 
+        </div>
+        <div class="content">
+            <div class="outfit">
+                <img src="/images/eoimg1.jpg" alt="Comfy jeans for men">
+                <p>Comfy jeans for men</p>
+            </div>
+            <div class="outfit">
+                <img src="/images/eoimg2.jpg" alt="Classy top for women">
+                <p>Classy top for women</p>
+            </div>
+            <div class="outfit">
+                <img src="/images/eoimg3.jpg" alt="Cute frock for little girl">
+                <p>Cute frock for little girl</p>
+            </div>
+            <div class="outfit">
+                <img src="/images/eoimg4.jpg" alt="Regular Co-ord set for boys">
+                <p>Regular Co-ord set for boys</p>
+            </div>
+            <div class="outfit">
+                <img src="/images/eoimg5.jpg" alt="Classy Shirt and jeans for women">
+                <p>Classy Shirt and jeans for women</p>
+            </div>
+            <div class="outfit">
+                <img src="/images/eoimg6.jpg" alt="Casual Hoodie and Denim and jacket for men">
+                <p>Casual Hoodie and Denim and jacket for men</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
